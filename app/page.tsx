@@ -2,7 +2,6 @@ import { useState } from "react";
 import { getCountries } from "./API/functions/getInfoApi";
 import CountryCard from "./components/country-card";
 import Header from "./components/header";
-import { Country } from "./API/types/country";
 
 // eslint-disable-next-line @next/next/no-async-client-component
 export default async function Home() {
