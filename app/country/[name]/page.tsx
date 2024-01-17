@@ -5,7 +5,6 @@ import {
   getCountryBorderByName,
 } from "../../API/functions/getInfoApi";
 import CountryCard from "../../components/country-card";
-import Header from "../../components/header";
 
 export default async function Country({
   params: { name },
@@ -18,7 +17,6 @@ export default async function Country({
   const formatter = Intl.NumberFormat("en", { notation: "compact" });
   return (
     <>
-      <Header />
       <main className="bg-gray-100 min-h-screen flex flex-col items-center">
         <section className="flex flex-col container">
           <h1 className="text-5xl font-bold text-center text-gray-800 my-16">
